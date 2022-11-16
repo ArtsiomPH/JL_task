@@ -15,4 +15,3 @@ class JlTaskPipeline:
         self.COUNTER += 1
         if self.COUNTER <= 100:
             return item
-        spider.close()
